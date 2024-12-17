@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بيع وتبادل المنتجات المستعملة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .product {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>بيع وتبادل المنتجات المستعملة</h1>
+        <p>منصة لعرض وتبادل المنتجات بسهولة</p>
+    </header>
+    <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#">المنتجات</a>
+        <a href="#">اتصل بنا</a>
+    </nav>
+    <div class="container">
+        <h2>المنتجات المميزة</h2>
+        <div class="product">
+            <h3>هاتف محمول مستعمل</h3>
+            <p>السعر: 1500 جنيه</p>
+        </div>
+        <div class="product">
+            <h3>لابتوب مستعمل</h3>
+            <p>السعر: 5000 جنيه</p>
+        </div>
+        <div class="product">
+            <h3>أريكة مستعملة</h3>
+            <p>السعر: 2000 جنيه</p>
+        </div>
+    </div>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024</p>
+    </footer>
+</body>
+</html>
